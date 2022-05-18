@@ -1,8 +1,6 @@
 import java.util.Scanner;
-import java.io.FileReader;
 import java.io.File; 
 import java.util.List;
-import java.util.ArrayList; 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
@@ -23,7 +21,8 @@ class PromApertura implements Strategy{
        System.out.println(array[0]+" "+array[array.length-1]);     
     }
   }
-  catch(Exception e){}
+  catch(Exception e){
+  }
     return 0.10;
   }
 }
